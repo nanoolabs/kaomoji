@@ -1,0 +1,15 @@
+{
+  "name": "@nlbs/kaomoji",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "index.ts",
+  "exports": {
+    ".": "./index.ts",
+    "./kaomoji.json": "./kaomoji.json"
+  },
+  "files": [
+    "index.ts",
+    "kaomoji.json",
+    "KAOMOJI.md"
+  ]
+}
