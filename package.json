@@ -1,6 +1,6 @@
 {
   "name": "@nlbs/kaomoji",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Minimalist kaomoji for Nanoo Labs documentation",
   "type": "module",
   "main": "dist/index.js",
