@@ -1,17 +1,19 @@
 # Kaomoji Reference
 
+Complete kaomoji reference for Nanoo Labs documentation.
+
 ## Systems
 
-| Status        | Kaomoji     | Description         |
-| :------------ | :---------- | :------------------ |
-| **Architect** | `[⌐■_■]`    | System architecture |
-| **Full Load** | `[ █_█ ]`   | Max performance     |
-| **Active**    | `[ ▣_▣ ]`   | Data processing     |
-| **Busy**      | `[ ▓_▓ ]`   | High workload       |
-| **Idle**      | `[ □_□ ]`   | Task waiting        |
-| **Hybrid**    | `[ ■_█ ]`   | Multi-core mode     |
-| **Secure**    | `[ ▨_▨ ]`   | Security operations |
-| **Grid**      | `[ ▦_▦ ]`   | Matrix operations   |
+| Status        | Kaomoji   | Description         |
+| :------------ | :-------- | :------------------ |
+| **Architect** | `[⌐■_■]`  | System architecture |
+| **Full Load** | `[ █_█ ]` | Max performance     |
+| **Active**    | `[ ▣_▣ ]` | Data processing     |
+| **Busy**      | `[ ▓_▓ ]` | High workload       |
+| **Idle**      | `[ □_□ ]` | Task waiting        |
+| **Hybrid**    | `[ ■_█ ]` | Multi-core mode     |
+| **Secure**    | `[ ▨_▨ ]` | Security operations |
+| **Grid**      | `[ ▦_▦ ]` | Matrix operations   |
 
 ## Programming
 
@@ -30,19 +32,30 @@
 
 ## Connectivity
 
-| Type        | Kaomoji     | Description         |
-| :---------- | :---------- | :------------------ |
-| **Low Power** | `[ ▱_▱ ]` | Low energy          |
-| **Syncing**  | `[ ☁_■ ]`   | Cloud sync          |
-| **Online**   | `[ ▄▆█_■ ]` | Connected           |
-| **Offline**  | `[ ⊘_■ ]`   | Disconnected        |
-| **Shield**   | `[ ▓_█ ]`   | System protection   |
+| Type          | Kaomoji   | Description       |
+| :------------ | :-------- | :---------------- |
+| **Low Power** | `[ ▱_▱ ]` | Low energy        |
+| **Syncing**   | `[ ☁_■ ]` | Cloud sync        |
+| **Online**    | `[ █_■ ]` | Connected         |
+| **Offline**   | `[ ⊘_■ ]` | Disconnected      |
+| **Shield**    | `[ ▓_█ ]` | System protection |
 
 ## Operations
 
-| Type      | Kaomoji       | Description           |
-| :-------- | :------------ | :-------------------- |
-| **Init**  | `[ ▄_█ ]`     | Booting sequence      |
-| **Kernel**| `[ ▟_▙ ]`     | Kernel monitoring     |
-| **Ship**  | `\ [■_■] /`   | Production deployment |
-| **Break** | `[ ▘_▘ ]~`   | System cooldown       |
+| Type       | Kaomoji     | Description           |
+| :--------- | :---------- | :-------------------- |
+| **Init**   | `[ ▄_█ ]`   | Booting sequence      |
+| **Kernel** | `[ ▟_▙ ]`   | Kernel monitoring     |
+| **Ship**   | `\ [■_■] /` | Production deployment |
+| **Break**  | `[ ▘_▘ ]~`  | System cooldown       |
+
+## Status
+
+| Type        | Kaomoji   | Description         |
+| :---------- | :-------- | :------------------ |
+| **Warning** | `[ ▲_▲ ]` | Warnings, alerts    |
+| **Queued**  | `[ ▒_▒ ]` | Task in queue       |
+| **New**     | `[ ★_★ ]` | New feature/item    |
+| **Loading** | `[ ▓░▒ ]` | Progress indicator  |
+| **Shock**   | `[ 0_0 ]` | Surprised/wide eyes |
+| **Blank**   | `[ __ ]`  | Empty/null state    |

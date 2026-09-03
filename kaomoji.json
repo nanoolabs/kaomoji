@@ -19,11 +19,17 @@
   "branch": "[ ▐▌_█ ]",
   "lowPower": "[ ▱_▱ ]",
   "syncing": "[ ☁_■ ]",
-  "online": "[ ▄▆█_■ ]",
+  "online": "[ █_■ ]",
   "offline": "[ ⊘_■ ]",
   "shield": "[ ▓_█ ]",
   "init": "[ ▄_█ ]",
   "kernel": "[ ▟_▙ ]",
   "ship": "\\ [■_■] /",
-  "break": "[ ▘_▘ ]~"
+  "break": "[ ▘_▘ ]~",
+  "warning": "[ ▲_▲ ]",
+  "queued": "[ ▒_▒ ]",
+  "new": "[ ★_★ ]",
+  "loading": "[ ▓░▒ ]",
+  "shock": "[ 0_0 ]",
+  "blank": "[ __ ]"
 }
