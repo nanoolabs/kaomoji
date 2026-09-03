@@ -1,6 +1,7 @@
 {
   "name": "@nlbs/kaomoji",
   "version": "0.0.1",
+  "description": "Minimalist kaomoji for Nanoo Labs documentation",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -14,12 +15,34 @@
   "files": [
     "dist",
     "kaomoji.json",
-    "KAOMOJI.md"
+    "KAOMOJI.md",
+    "LICENSE"
   ],
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch"
   },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanoolabs/kaomoji.git"
+  },
+  "homepage": "https://github.com/nanoolabs/kaomoji#readme",
+  "bugs": {
+    "url": "https://github.com/nanoolabs/kaomoji/issues"
+  },
+  "keywords": [
+    "nanoo",
+    "kaomoji",
+    "emoticon",
+    "ascii",
+    "minimalist",
+    "documentation"
+  ],
+  "author": "Adnan Slamet Wibowo <adnan@nanoolabs.dev>",
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^5.8.3"
   }
