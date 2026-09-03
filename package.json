@@ -2,14 +2,25 @@
   "name": "@nlbs/kaomoji",
   "version": "0.0.1",
   "type": "module",
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "exports": {
-    ".": "./index.ts",
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
     "./kaomoji.json": "./kaomoji.json"
   },
   "files": [
-    "index.ts",
+    "dist",
     "kaomoji.json",
     "KAOMOJI.md"
-  ]
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
 }
