@@ -21,12 +21,15 @@ Or consume the raw JSON in any language:
 
 ```ts
 import kaomoji from "@nlbs/kaomoji/kaomoji.json" with { type: "json" };
+
+kaomoji.fatal.value; // → "[ ✖_✖ ]"
+kaomoji.fatal.description; // → "Kernel panic"
 ```
 
 ```python
 import json, urllib.request
 data = json.load(open("kaomoji.json"))
-print(data["fatal"])  # [ ✖_✖ ]
+print(data["fatal"]["value"])  # [ ✖_✖ ]
 ```
 
 ### Default fallback
@@ -43,7 +46,7 @@ See [KAOMOJI.md](./KAOMOJI.md) for the full kaomoji reference tables.
 
 ## Raw data
 
-Consume `kaomoji.json` from any language, it's the single source of truth. The `index.ts` wrapper is optional.
+Consume `kaomoji.json` from any language, it's the single source of truth. Every entry carries `value`, `category` and `description`. The `index.ts` wrapper is optional.
 
 ## Maintained
 

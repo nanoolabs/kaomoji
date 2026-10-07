@@ -1,10 +1,10 @@
 # Kaomoji Reference
 
-Complete kaomoji reference for Nanoo Labs documentation.
+Complete kaomoji reference for Nanoo Labs documentation
 
 ## Systems
 
-| Status        | Kaomoji   | Description         |
+| Name          | Kaomoji   | Description         |
 | :------------ | :-------- | :------------------ |
 | **Architect** | `[⌐■_■]`  | System architecture |
 | **Full Load** | `[ █_█ ]` | Max performance     |
@@ -17,7 +17,7 @@ Complete kaomoji reference for Nanoo Labs documentation.
 
 ## Programming
 
-| Mode          | Kaomoji     | Description       |
+| Name          | Kaomoji     | Description       |
 | :------------ | :---------- | :---------------- |
 | **Success**   | `[ ^■^ ]`   | Build completed   |
 | **Grind**     | `[ >■< ]`   | Logic execution   |
@@ -32,7 +32,7 @@ Complete kaomoji reference for Nanoo Labs documentation.
 
 ## Connectivity
 
-| Type          | Kaomoji   | Description       |
+| Name          | Kaomoji   | Description       |
 | :------------ | :-------- | :---------------- |
 | **Low Power** | `[ ▱_▱ ]` | Low energy        |
 | **Syncing**   | `[ ☁_■ ]` | Cloud sync        |
@@ -42,7 +42,7 @@ Complete kaomoji reference for Nanoo Labs documentation.
 
 ## Operations
 
-| Type       | Kaomoji     | Description           |
+| Name       | Kaomoji     | Description           |
 | :--------- | :---------- | :-------------------- |
 | **Init**   | `[ ▄_█ ]`   | Booting sequence      |
 | **Kernel** | `[ ▟_▙ ]`   | Kernel monitoring     |
@@ -51,7 +51,7 @@ Complete kaomoji reference for Nanoo Labs documentation.
 
 ## Status
 
-| Type        | Kaomoji   | Description         |
+| Name        | Kaomoji   | Description         |
 | :---------- | :-------- | :------------------ |
 | **Warning** | `[ ▲_▲ ]` | Warnings, alerts    |
 | **Queued**  | `[ ▒_▒ ]` | Task in queue       |

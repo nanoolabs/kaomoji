@@ -1,35 +1,167 @@
 {
-  "architect": "[⌐■_■]",
-  "fullLoad": "[ █_█ ]",
-  "active": "[ ▣_▣ ]",
-  "busy": "[ ▓_▓ ]",
-  "idle": "[ □_□ ]",
-  "hybrid": "[ ■_█ ]",
-  "secure": "[ ▨_▨ ]",
-  "grid": "[ ▦_▦ ]",
-  "success": "[ ^■^ ]",
-  "grind": "[ >■< ]",
-  "skeptical": "[ ¬■_■ ]",
-  "debug": "[ ;■_■ ]",
-  "scanning": "[ █_▀ ]",
-  "fatal": "[ ✖_✖ ]",
-  "void": "[ ∅_∅ ]",
-  "glitch": "[ ░_░ ]",
-  "recursion": "[ ▞▚_▚▞ ]",
-  "branch": "[ ▐▌_█ ]",
-  "lowPower": "[ ▱_▱ ]",
-  "syncing": "[ ☁_■ ]",
-  "online": "[ █_■ ]",
-  "offline": "[ ⊘_■ ]",
-  "shield": "[ ▓_█ ]",
-  "init": "[ ▄_█ ]",
-  "kernel": "[ ▟_▙ ]",
-  "ship": "\\ [■_■] /",
-  "break": "[ ▘_▘ ]~",
-  "warning": "[ ▲_▲ ]",
-  "queued": "[ ▒_▒ ]",
-  "new": "[ ★_★ ]",
-  "loading": "[ ▓░▒ ]",
-  "shock": "[ 0_0 ]",
-  "blank": "[ __ ]"
+  "architect": {
+    "value": "[⌐■_■]",
+    "category": "Systems",
+    "description": "System architecture"
+  },
+  "fullLoad": {
+    "value": "[ █_█ ]",
+    "category": "Systems",
+    "description": "Max performance"
+  },
+  "active": {
+    "value": "[ ▣_▣ ]",
+    "category": "Systems",
+    "description": "Data processing"
+  },
+  "busy": {
+    "value": "[ ▓_▓ ]",
+    "category": "Systems",
+    "description": "High workload"
+  },
+  "idle": {
+    "value": "[ □_□ ]",
+    "category": "Systems",
+    "description": "Task waiting"
+  },
+  "hybrid": {
+    "value": "[ ■_█ ]",
+    "category": "Systems",
+    "description": "Multi-core mode"
+  },
+  "secure": {
+    "value": "[ ▨_▨ ]",
+    "category": "Systems",
+    "description": "Security operations"
+  },
+  "grid": {
+    "value": "[ ▦_▦ ]",
+    "category": "Systems",
+    "description": "Matrix operations"
+  },
+  "success": {
+    "value": "[ ^■^ ]",
+    "category": "Programming",
+    "description": "Build completed"
+  },
+  "grind": {
+    "value": "[ >■< ]",
+    "category": "Programming",
+    "description": "Logic execution"
+  },
+  "skeptical": {
+    "value": "[ ¬■_■ ]",
+    "category": "Programming",
+    "description": "Validation mode"
+  },
+  "debug": {
+    "value": "[ ;■_■ ]",
+    "category": "Programming",
+    "description": "Troubleshooting"
+  },
+  "scanning": {
+    "value": "[ █_▀ ]",
+    "category": "Programming",
+    "description": "Resource scanning"
+  },
+  "fatal": {
+    "value": "[ ✖_✖ ]",
+    "category": "Programming",
+    "description": "Kernel panic"
+  },
+  "void": {
+    "value": "[ ∅_∅ ]",
+    "category": "Programming",
+    "description": "Null reference"
+  },
+  "glitch": {
+    "value": "[ ░_░ ]",
+    "category": "Programming",
+    "description": "System glitch"
+  },
+  "recursion": {
+    "value": "[ ▞▚_▚▞ ]",
+    "category": "Programming",
+    "description": "Logic recursion"
+  },
+  "branch": {
+    "value": "[ ▐▌_█ ]",
+    "category": "Programming",
+    "description": "Logic branching"
+  },
+  "lowPower": {
+    "value": "[ ▱_▱ ]",
+    "category": "Connectivity",
+    "description": "Low energy"
+  },
+  "syncing": {
+    "value": "[ ☁_■ ]",
+    "category": "Connectivity",
+    "description": "Cloud sync"
+  },
+  "online": {
+    "value": "[ █_■ ]",
+    "category": "Connectivity",
+    "description": "Connected"
+  },
+  "offline": {
+    "value": "[ ⊘_■ ]",
+    "category": "Connectivity",
+    "description": "Disconnected"
+  },
+  "shield": {
+    "value": "[ ▓_█ ]",
+    "category": "Connectivity",
+    "description": "System protection"
+  },
+  "init": {
+    "value": "[ ▄_█ ]",
+    "category": "Operations",
+    "description": "Booting sequence"
+  },
+  "kernel": {
+    "value": "[ ▟_▙ ]",
+    "category": "Operations",
+    "description": "Kernel monitoring"
+  },
+  "ship": {
+    "value": "\\ [■_■] /",
+    "category": "Operations",
+    "description": "Production deployment"
+  },
+  "break": {
+    "value": "[ ▘_▘ ]~",
+    "category": "Operations",
+    "description": "System cooldown"
+  },
+  "warning": {
+    "value": "[ ▲_▲ ]",
+    "category": "Status",
+    "description": "Warnings, alerts"
+  },
+  "queued": {
+    "value": "[ ▒_▒ ]",
+    "category": "Status",
+    "description": "Task in queue"
+  },
+  "new": {
+    "value": "[ ★_★ ]",
+    "category": "Status",
+    "description": "New feature/item"
+  },
+  "loading": {
+    "value": "[ ▓░▒ ]",
+    "category": "Status",
+    "description": "Progress indicator"
+  },
+  "shock": {
+    "value": "[ 0_0 ]",
+    "category": "Status",
+    "description": "Surprised/wide eyes"
+  },
+  "blank": {
+    "value": "[ __ ]",
+    "category": "Status",
+    "description": "Empty/null state"
+  }
 }

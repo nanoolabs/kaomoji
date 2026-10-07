@@ -1,12 +1,18 @@
-import data from "./kaomoji.json" with { type: "json" }
+import raw from './kaomoji.json' with { type: 'json' }
 
-const store = data as Record<string, string>
+export interface Kaomoji {
+  value: string
+  category: string
+  description: string
+}
 
-const fallback = "[ ?_? ]"
+const store = raw as unknown as Record<string, Kaomoji>
 
-export const log = new Proxy(store, {
-  get(target, key: string) {
-    return target[key] ?? fallback
+const fallback = '[ ?_? ]'
+
+export const log = new Proxy({} as Record<string, string>, {
+  get(_, key) {
+    return store[key as string]?.value ?? fallback
   },
 })
 
