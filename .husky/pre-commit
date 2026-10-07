@@ -1,0 +1,2 @@
+node gen.js && git add KAOMOJI.md
+pnpm exec lint-staged
