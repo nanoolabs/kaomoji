@@ -1,4 +1,4 @@
-# @nlbs/kaomoji `[ ■_■ ]`
+# @nlbs/kaomoji [ ■_■ ]
 
 Minimalist kaomoji for Nanoo Labs documentation.
 
@@ -43,7 +43,7 @@ See [KAOMOJI.md](./KAOMOJI.md) for the full kaomoji reference tables.
 
 ## Raw data
 
-Consume `kaomoji.json` from any language — it's the single source of truth. The `index.ts` wrapper is optional.
+Consume `kaomoji.json` from any language, it's the single source of truth. The `index.ts` wrapper is optional.
 
 ## Maintained
 
@@ -52,4 +52,3 @@ Consume `kaomoji.json` from any language — it's the single source of truth. Th
 ## License
 
 [ISC](./LICENSE)
-
