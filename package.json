@@ -42,7 +42,7 @@
     "documentation"
   ],
   "author": "Adnan Slamet Wibowo <adnan@nanoolabs.dev>",
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "typescript": "^5.8.3"
   }

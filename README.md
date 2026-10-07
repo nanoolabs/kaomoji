@@ -48,3 +48,8 @@ Consume `kaomoji.json` from any language — it's the single source of truth. Th
 ## Maintained
 
 [@aadnanmt](https://github.com/aadnanmt) | Nanoo Labs Ecosystems.
+
+## License
+
+[ISC](./LICENSE)
+
